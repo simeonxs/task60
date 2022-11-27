@@ -27,3 +27,27 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar-burger {
+  width: 400px;
+  height: 400px;
+  visibility: hidden;
+  color: black;
+  background-color: green;
+
+}
+
+.navbar-menu {
+  width: 300x;
+  height: 300px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-menu {
+    visibility: hidden;
+  }
+  .navbar-burger {
+    visibility: visible;
+  }
+}
